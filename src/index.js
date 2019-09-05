@@ -1,12 +1,43 @@
+// import React from 'react';
+
+// import { render } from 'react-dom';
+
+// // Import Components
+// import Ap from '../src/component/Ap';
+// import Single from './component/Single';
+// import PhotoCard from './component/PhotoCard';
+
+// // import react router deps
+// import {
+//   BrowserRouter as Router,
+//   Route,
+//   Switch,
+//   Redirect
+// } from 'react-router-dom';
+// import { Provider} from 'react-redux'
+// import store, {history} from './pages/store'
+
+// const router = (
+//   <Provider store={store}>
+//     <Router history={history}>
+//         <Route exact path="/" component={Ap}></Route>
+//         <Route  path="/" component={PhotoCard}></Route>
+//         <Route path="/view/:postId" component={Single}></Route>  
+//     </Router>
+//   </Provider>
+// )
+
+// render(router, document.getElementById('root'));
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorkder from './serviceWorker'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+serviceWorkder.unregister()

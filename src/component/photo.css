@@ -1,0 +1,104 @@
+.photoWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.photoBanner {
+  position: relative;
+  margin-left:120px;
+  margin-top:30px;
+  border:1px gainsboro solid;
+  box-shadow: 0px 2px 6px gainsboro;
+  border-radius: 25px;
+}
+.photoImg {
+  width: 220px;
+  height: 220px;
+}
+.photoImg img {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.photoNameCon {
+  width: 180px;
+  height: 30px;
+  border:3px antiquewhite dotted;
+  margin: 0 auto;
+}
+.photoName{
+  text-decoration: none;
+  font-family: 'heiti';
+  color:yellowgreen;
+  line-height: 30px;
+  font-weight: bold;
+}
+.thoughtBanner {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 220px;
+  height: 50px;
+  border-radius: 0px 0px 25px 25px;
+}
+
+.thoughtlikes {
+  margin-right: 20px;
+}
+.thoughtcomments {
+}
+.likesButton {
+  padding:10px 30px;
+  border-radius: 10px;
+  border: 0px;
+  /*消除默认点击蓝色边框效果*/
+  outline: none;
+  cursor: pointer;
+  background-color: rgba(199, 245, 108, 0.705);
+  color: red;
+  font-size: 16px;
+}
+.commentsButton {
+  padding:10px 30px;
+  border-radius: 10px;
+  border: 0px;
+    /*消除默认点击蓝色边框效果*/
+  outline: none;
+  cursor: pointer;
+  background-color: rgba(199, 245, 108, 0.705);
+  font-size: 16px;
+}
+.Linkcomments {
+  text-decoration: none;
+}
+
+
+.likes-enter {
+  opacity: 0;
+}
+.likes-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+.likes-leave {
+  opacity: 1;
+}
+.likes-leave-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
+
+
+/**********Single*************/
+.SingleWrap{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: palevioletred;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
